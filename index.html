@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores Bolivianos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="topline">
+        COCINA BOLIVIANA · NUEVE DEPARTAMENTOS · UNA GRAN TRADICIÓN
+    </div>
+
+    <header class="header">
+
+        <a class="brand" href="#inicio">
+            <span class="brand-mark">SB</span>
+            <span>
+                <strong>SABORES</strong>
+                <small>BOLIVIANOS</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">INICIO</a>
+            <a href="#nosotros">NOSOTROS</a>
+            <a href="#menu">MENÚ</a>
+            <a href="#departamentos">DEPARTAMENTOS</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+
+        <button class="cart-trigger" id="openCart">
+            <span>MI PEDIDO</span>
+            <span class="cart-icon">🛒</span>
+            <b id="cartCount">0</b>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">EL SABOR DE NUESTRA TIERRA</p>
+
+                <h1>
+                    Tradición que<br>
+                    <em>se sirve en la mesa.</em>
+                </h1>
+
+                <p class="hero-text">
+                    Un recorrido por la riqueza gastronómica de Bolivia.
+                    Recetas llenas de historia, identidad y sabor,
+                    preparadas para compartir en familia o con amigos.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#menu">
+                        EXPLORAR MENÚ ↗
+                    </a>
+
+                    <a class="text-link" href="#nosotros">
+                        Conoce nuestra historia
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    NUEVE DEPARTAMENTOS, MIL SABORES
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <span class="image-caption">
+                        COCINA CON IDENTIDAD
+                    </span>
+                </div>
+
+                <div class="round-stamp">
+                    <span>HECHO CON</span>
+                    <b>♥</b>
+                    <span>SABOR BOLIVIANO</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="intro-strip" id="nosotros">
+
+            <span class="eyebrow">NUESTRA ESENCIA</span>
+
+            <p>
+                Celebramos los ingredientes, las costumbres y las recetas
+                que hacen única a <em>Bolivia.</em>
+            </p>
+
+            <span class="intro-side">
+                DESDE EL ALTIPLANO<br>
+                HASTA LOS LLANOS
+            </span>
+
+        </section>
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">UNA EXPERIENCIA PARA COMPARTIR</p>
+                    <h2>Nuestro <em>menú</em></h2>
+                </div>
+
+                <p>
+                    Descubre preparaciones tradicionales de cada rincón
+                    del país y agrega tus favoritas al pedido.
+                </p>
+
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="filter active" data-filter="Todos">TODOS</button>
+                <button class="filter" data-filter="La Paz">LA PAZ</button>
+                <button class="filter" data-filter="Oruro">ORURO</button>
+                <button class="filter" data-filter="Potosí">POTOSÍ</button>
+                <button class="filter" data-filter="Cochabamba">COCHABAMBA</button>
+                <button class="filter" data-filter="Chuquisaca">CHUQUISACA</button>
+                <button class="filter" data-filter="Tarija">TARIJA</button>
+                <button class="filter" data-filter="Santa Cruz">SANTA CRUZ</button>
+                <button class="filter" data-filter="Beni">BENI</button>
+                <button class="filter" data-filter="Pando">PANDO</button>
+            </div>
+
+            <div class="dish-grid" id="dishGrid"></div>
+
+        </section>
+
+        <section class="departments" id="departamentos">
+
+            <div>
+                <p class="eyebrow">UN PAÍS, MUCHAS HISTORIAS</p>
+                <h2>
+                    Sabores de los<br>
+                    <em>nueve departamentos.</em>
+                </h2>
+            </div>
+
+            <p>
+                Cada región aporta ingredientes, técnicas y tradiciones
+                que merecen ser conocidas y compartidas.
+            </p>
+
+            <a href="#menu" class="button button-light">
+                DESCUBRIR LOS PLATOS ↗
+            </a>
+
+        </section>
+
+        <section class="contact-section" id="contacto">
+
+            <div>
+                <p class="eyebrow">ESTAMOS PARA ATENDERTE</p>
+                <h2>
+                    Tu próximo sabor<br>
+                    favorito te espera.
+                </h2>
+            </div>
+
+            <div class="contact-card">
+                <span class="contact-symbol">✳</span>
+                <h3>Haz tu pedido</h3>
+
+                <p>
+                    Arma tu carrito y envíanos tu selección por WhatsApp.
+                </p>
+
+                <a class="button button-dark" href="#menu">
+                    VER EL MENÚ ↗
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <a class="brand brand-footer" href="#inicio">
+            <span class="brand-mark">SB</span>
+            <span>
+                <strong>SABORES</strong>
+                <small>BOLIVIANOS</small>
+            </span>
+        </a>
+
+        <p>Nueve departamentos, mil sabores.</p>
+
+        <span>
+            © <span id="year"></span> SABORES BOLIVIANOS
+        </span>
+
+    </footer>
+
+    <!-- CARRITO DE COMPRAS -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-panel" id="cartPanel">
+
+        <div class="cart-head">
+
+            <div>
+                <p class="eyebrow">TU SELECCIÓN</p>
+                <h2>Mi pedido</h2>
+            </div>
+
+            <button id="closeCart" class="close-cart">×</button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">
+                Tu carrito está vacío. Agrega tus platos favoritos.
+            </p>
+        </div>
+
+        <div class="cart-bottom">
+
+            <div class="total-row">
+                <span>TOTAL</span>
+                <strong id="cartTotal">Bs 0.00</strong>
+            </div>
+
+            <button class="button button-dark checkout" id="checkout">
+                ENVIAR PEDIDO POR WHATSAPP ↗
+            </button>
+
+            <small>
+                El pedido se enviará para confirmar disponibilidad y entrega.
+            </small>
+
+        </div>
+
+    </aside>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
